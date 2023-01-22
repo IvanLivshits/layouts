@@ -127,6 +127,7 @@ img {
     background: url(../image/intro-bg.jpg) no-repeat center;
     background-size: cover;
     padding-top: 263px;
+    padding-bottom: 223px;
 }
 
 .intro__title {
@@ -269,6 +270,10 @@ img {
 
 /* Places styles start */
 
+.places {
+    margin-bottom: 131px;
+}
+
 .places__caption {
     display: flex;
     flex-wrap: wrap;
@@ -283,7 +288,6 @@ img {
 
 .places__link {
     padding-right: 59px;
-    text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -367,3 +371,143 @@ img {
 }
 
 /* Places styles end */
+
+/* Tours styles start */
+
+.tours {
+    margin-bottom: 139px;
+}
+
+.tours__wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+    margin-bottom: 77px;
+}
+
+.tour__info {
+    padding-left: 40px;
+}
+
+.tour__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 85px;
+}
+
+.tour__description {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 58px;
+}
+
+.tour__more {
+    font-size: 16px;
+    line-height: 24px;
+    color: #006DFE;
+    text-decoration: none;
+    padding-right: 59px;
+    background: url(../image/svg/arrow-icon.svg) no-repeat 95% center;
+    transition: .2s all;
+}
+
+.tour__more:hover, .tour__more:focus {
+    background: url(../image/svg/arrow-icon.svg) no-repeat right center;
+}
+/* Tours styles end */
+
+/* Ranked places styles start */
+
+.ranked {
+    margin-bottom: 86px;
+}
+
+.ranked__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 58px;
+}
+
+.ranked__card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.ranked__title {
+    margin-bottom: 54px;
+}
+
+.ranked__card-pic {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+
+.ranked__card-stats {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 24, 36, 0.6);
+    padding: 16px 25px;
+}
+
+.ranked__card-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    margin: 0 auto 0 0;
+}
+
+.ranked__card-likes {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    padding-right: 20px;
+    background: url(/image/svg/like-icon.svg) no-repeat right center;
+    margin-right: 14px;
+}
+
+.ranked__card-comments {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    padding-right: 23px;
+    background: url(/image/svg/comments-icon.svg) no-repeat right center
+}
+
+.ranked__card-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 31px;
+}
+
+.ranked__card-more {
+    background: #1B7DFF;
+    text-transform: uppercase;
+    padding: 12px 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px; 
+    color: #FFFFFF;
+    border: 0;
+    text-decoration: none;
+    width: 118px;
+    margin: auto 0 0 0;
+}
+
+.ranked__card-more:hover, .ranked__card-more:focus, .ranked__card-more:active {
+    background-color: #1d5eb3;
+}
+/* Ranked places styles end */
