@@ -85,6 +85,13 @@ img {
     top: 0;
     left: 0;
     width: 100%;
+    transition: .4s linear;
+    padding-bottom: 20px;
+    z-index: 10;
+}
+
+.header__active {
+    background: black;
 }
 
 .header__wrapper {
@@ -511,3 +518,34 @@ img {
     background-color: #1d5eb3;
 }
 /* Ranked places styles end */
+
+/* Video styles start */
+
+.video {
+    width: 100%;
+}
+
+.video__wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.video__item {
+    padding-top: 56.25%;
+}
+
+.video__element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* Video styles end */
+
+/* Footer styles start */
+
+
+
+/* Footer styles end */
